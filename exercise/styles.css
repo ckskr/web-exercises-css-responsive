@@ -19,3 +19,14 @@
   --accent-1: #ff5555;
   --accent-2: #50fa7b;
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --dark: #585962;
+    --medium: #50806d;
+    --light: #b7b089;
+    --contrast-text: #6c6c30;
+    --accent-1: #988888;
+    --accent-2: #495e4e;
+  }
+}
